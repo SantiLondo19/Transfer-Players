@@ -1,0 +1,97 @@
+.contenedor{
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.contenedor_form {
+    margin: 0 auto;
+    border: 2px solid grey;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.seleccion_genero {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.selector_nacionalidad {
+    color: black;
+    text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.contenedor_estadisticas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selector_estadisticas {
+    color: black;
+    text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.estadisticas_numero {
+    text-align: center;
+    height: 2.3rem;
+    margin-top: .5rem;
+    width: 100%;
+}
+
+.numero_estadistica {
+    font-weight: 700;
+}
+
+.selector_posicion {
+    color: black;
+    text-align: center;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+
+.posicion {
+    margin-bottom: 2rem;
+}
+
+
+.submit {
+    margin-bottom: 2rem;
+    color: black;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: white;
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 20ms;
+}
+
+.seleccion_genero:hover label{
+    cursor: pointer;
+
+}

@@ -1,0 +1,47 @@
+.contenedorP {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.imagen_jugador img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+
+
+.estadisticas_jugador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 2rem;
+}
+
+.nombre_jugador { 
+    color: #abb6c2;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    line-height: 1;
+    margin: 1rem 0 0 0;
+}
+
+
+
+.estadisticas p{
+    margin: 1rem auto;
+    border: 2px solid grey;
+    border-radius: 2rem;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 1rem;
+    width: auto;
+}
